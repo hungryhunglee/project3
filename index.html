@@ -171,35 +171,25 @@
 
     </script>
     <script type="text/javascript">
-        // More API functions here:
-        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
-        // the link to your model provided by Teachable Machine export panel
         const URL = "https://teachablemachine.withgoogle.com/models/8tHf5Ew3q/";
-
         let model, webcam, labelContainer, maxPredictions;
 
-        // Load the image model and setup the webcam
         async function init() {
             const modelURL = URL + "model.json";
             const metadataURL = URL + "metadata.json";
 
-            // load the model and metadata
-            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-            // or files from your local hard drive
-            // Note: the pose library adds "tmImage" object to your window (window.tmImage)
             model = await tmImage.load(modelURL, metadataURL);
             maxPredictions = model.getTotalClasses();
-
-            // append elements to the DOM
             labelContainer = document.getElementById("label-container");
-            for (let i = 0; i < maxPredictions; i++) { // and class labels
-                labelContainer.appendChild(document.createElement("div"));
+
+            for (let i = 0; i < maxPredictions; i++) {
+                var element = document.createElement("div")
+                element.classList.add("d-flex");
+                labelContainer.appendChild(element);
             }
         }
-        // run the webcam image through the image model
         async function predict() {
-            // predict can take in an image, video or canvas html element
             var image = document.getElementById("face-image")
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
@@ -291,6 +281,10 @@
                     resultExplain = "찰리 멍거는 미국의 억만 장자 투자자, 사업가, 전 부동산 변호사, 건축 설계자 및 박애주의자이다. 그는 워런 버핏이 관리하는 투자지주회사 Berkshire Hathaway의 부회장이자, 막후의 실세, 그리고 버핏의 위대한 동업자이자 오른팔이기도 하다. 그는 평소 격자틀 정신모델 이론을 내세우며 투자자들에게 다양한 분야에 걸쳐 지식과 지혜를 쌓으라고 권한다."
                     resultPhoto = ""
                     break;
+                default:
+                    resultTitle = "알수없음"
+                    resultExplain = ""
+                    resultPhoto = ""
             }
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
@@ -358,6 +352,8 @@
                     case "charliemunger":
                         labelTitle = "찰리 멍거"
                         break;
+                    default:
+                        labelTitle = "알수없음"
                 }
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
