@@ -1,8 +1,8 @@
 body {
-    font-family: 'Jua', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
     background-color: #ffffff;
     box-sizing: border-box;
-    color: #35465d;
+    color: #3a3a3a;
   }
   .file-upload {
       padding: 15% 3%;
@@ -63,13 +63,13 @@ body {
       position: relative;
       object-fit: contain;
       border-radius: 10px;
-      border: dashed 1.5px #35465d;
+      border: dashed 1.5px #3a3a3a;
       background-color: #ffffff;
   }
   
   .image-dropping,
   .image-upload-wrap:hover {
-      background-color: #35465d82;
+      background-color: #3a3a3a82;
       border: 1.5px dashed #ffffff;
   }
   
@@ -96,8 +96,8 @@ body {
   
   .try-again-btn {
     border-radius: 40px;
-    border: solid 1.5px #35465d;
-    background-color: #35465d;
+    border: solid 1.5px #3a3a3a;
+    background-color: #3a3a3a;
   }
   
   .try-again-text {
@@ -123,7 +123,7 @@ body {
   .navbar-light .navbar-brand {
     line-height: 1.68;
     text-align: left;
-    color: #35465d; 
+    color: #3a3a3a; 
   }
   
   .navbar-light .navbar-toggler {
@@ -137,13 +137,13 @@ body {
   .title {
     line-height: 1.67;
     text-align: center;
-    color: #35465d;
+    color: #3a3a3a;
   }
   
   .subtitle {
     line-height: 1.53;
     text-align: center;
-    color: #35465d;
+    color: #3a3a3a;
   }
   
   /* On screens that are 600px or less, set the background color to olive */
@@ -187,6 +187,444 @@ body {
       font-size: 1.5rem;
       line-height: 1.53;
       text-align: center;
-      color: #35465d;
+      color: #3a3a3a;
       margin: 0 auto;
+  }
+
+  .footer {
+    background-color: initial;
+    color: initial;
+  }
+
+  .bar-container {
+    height: 2.7rem;
+  }
+  
+  .warrenbuffett-box {
+    position: absolute;
+    top: 0;`
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+  }
+  .warrenbuffett-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+  }
+  .johntempleton-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(106, 156, 252, 0.2);
+  }
+  .johntempleton-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(106, 156, 252, 1);
+  }
+  .peterlynch-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
+  }
+  .peterlynch-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+  }
+  .georgesoros-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
+  }
+  .georgesoros-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
+  }
+  .johnbogle-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(195, 140, 102, 0.2);
+  }
+  .johnbogle-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(195, 140, 102, 1);
+  }
+  .carlicahn-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
+  }
+  .carlicahn-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
+  }
+  .andrekostolany-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
+  }
+  .andrekostolany-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
+  }
+  .johnneff-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(215, 141, 71, 0.2);
+  }
+  .johnneff-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(215, 141, 71, 1);
+  }
+  .raydalio-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(0, 27, 61, 0.2);
+  }
+  .raydalio-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 27, 61, 1);
+  }
+  .howardmarks-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  .howardmarks-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 1);
+  }
+  .stephenschwarzman-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(0, 63, 255, 0.2);
+  }
+  .stephenschwarzman-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 63, 255, 1);
+  }
+  .jimsimons-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(0, 65, 0, 0.2);
+  }
+  .jimsimons-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 65, 0, 1);
+  }
+  .billgross-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(244, 209, 0, 0.2);
+  }
+  .billgross-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(244, 209, 0, 1);
+  }
+  .jimrogers-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(97, 105, 135, 0.2);
+  }
+  .jimrogers-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(97, 105, 135, 1);
+  }
+  .kenfisher-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(103, 195, 200, 0.2);
+  }
+  .kenfisher-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(103, 195, 200, 1);
+  }
+  .mohnishpabrai-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(100, 50, 100, 0.2);
+  }
+  .mohnishpabrai-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(100, 50, 100, 1);
+  }
+  .charliemunger-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(255, 104, 51, 0.2);
+  }
+  .charliemunger-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 104, 51, 1);
+  }
+  .percent-text {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .animal-label {
+      width: 20%;
+      text-align: left;
+      height: 2rem;
+  }
+  #label-container {
+      width: 80%;
+      margin: 0 auto;
+  }
+  .result-message {
+      font-size: 2rem;
+  }
+  
+  .animal-explain {
+      font-size: 1.5rem;
+  }
+  .warrenbuffett-animal-title {
+      color: #75CC54;
+  }
+  .warrenbuffett-animal-photo {
+      color: #75CC54;
+      font-size: 1.2rem;
+  }
+  .johntempleton-animal-title {
+      color: #6A9CFC;
+  }
+  .johntempleton-animal-photo {
+      color: #6A9CFC;
+      font-size: 1.2rem;
+  }
+  .peterlynch-animal-title {
+      color: #1BAFEA;
+  }
+  .peterlynch-animal-photo {
+      color: #1BAFEA;
+      font-size: 1.2rem;
+  }
+  .georgesoros-animal-title {
+      color: #FBB03B;
+  }
+  .georgesoros-animal-photo {
+      color: #FBB03B;
+      font-size: 1.2rem;
+  }
+  .johnbogle-animal-title {
+      color: #C38C66;
+  }
+  .johnbogle-animal-photo {
+      color: #C38C66;
+      font-size: 1.2rem;
+  }
+  .carlicahn-animal-title {
+      color: #31849B;
+  }
+  .carlicahn-animal-photo {
+      color: #31849B;
+      font-size: 1.2rem;
+  }
+  .andrekostolany-animal-title {
+      color: #EBA6BE;
+  }
+  .andrekostolany-animal-photo {
+      color: #EBA6BE;
+      font-size: 1.2rem;
+  }
+  .johnneff-animal-title {
+      color: #D78D47;
+  }
+  .johnneff-animal-photo {
+      color: #D78D47;
+      font-size: 1.2rem;
+  }
+  .raydalio-animal-title {
+      color: #001B3D;
+  }
+  .raydalio-animal-photo {
+      color: #001B3D;
+      font-size: 1.2rem;
+  }
+  .howardmarks-animal-title {
+      color: #FF0000;
+  }
+  .howardmarks-animal-photo {
+      color: #FF0000;
+      font-size: 1.2rem;
+  }
+  .stephenschwarzman-animal-title {
+      color: #003FFF;
+  }
+  .stephenschwarzman-animal-photo {
+      color: #003FFF;
+      font-size: 1.2rem;
+  }
+  .jimsimons-animal-title {
+      color: #004100;
+  }
+  .jimsimons-animal-photo {
+      color: #004100;
+      font-size: 1.2rem;
+  }
+  .billgross-animal-title {
+      color: #F4D100;
+  }
+  .billgross-animal-photo {
+      color: #F4D100;
+      font-size: 1.2rem;
+  }
+  .jimrogers-animal-title {
+      color: #616987;
+  }
+  .jimrogers-animal-photo {
+      color: #616987;
+      font-size: 1.2rem;
+  }
+  .kenfisher-animal-title {
+      color: #67C3C8;
+  }
+  .kenfisher-animal-photo {
+      color: #67C3C8;
+      font-size: 1.2rem;
+  }
+  .mohnishpabrai-animal-title {
+      color: #643264;
+  }
+  .mohnishpabrai-animal-photo {
+      color: #643264;
+      font-size: 1.2rem;
+  }
+  .charliemunger-animal-title {
+      color: #FF6833;
+  }
+  .charliemunger-animal-photo {
+      color: #FF6833;
+      font-size: 1.2rem;
   }
