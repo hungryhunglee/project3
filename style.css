@@ -1,15 +1,15 @@
-body {
+  body {
     font-family: 'Do Hyeon', sans-serif;
     background-color: #ffffff;
     box-sizing: border-box;
     color: #3a3a3a;
   }
   .file-upload {
-      padding: 15% 3%;
-      margin: 0 auto;
-      border-radius: 10px;
-      border: solid 1.5px #f6f7fa;
-      background-color: #f6f7fa;
+    padding: 15% 3%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
   }
   .file-upload-btn {
     width: 100%;
@@ -58,19 +58,19 @@ body {
   }
   
   .image-upload-wrap {
-      width: 60%;
-      margin: 0 auto;
-      position: relative;
-      object-fit: contain;
-      border-radius: 10px;
-      border: dashed 1.5px #3a3a3a;
-      background-color: #ffffff;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #3a3a3a;
+    background-color: #ffffff;
   }
   
   .image-dropping,
   .image-upload-wrap:hover {
-      background-color: #3a3a3a82;
-      border: 1.5px dashed #ffffff;
+    background-color: #3a3a3a82;
+    border: 1.5px dashed #ffffff;
   }
   
   .image-title-wrap {
@@ -127,11 +127,11 @@ body {
   }
   
   .navbar-light .navbar-toggler {
-      border-color: #ffffff;
+    border-color: #ffffff;
   }
   
   .section {
-      margin-top: 50px;
+    margin-top: 50px;
   }
   
   .title {
@@ -146,8 +146,8 @@ body {
     line-height: 1.53;
     text-align: center;
     color: #3a3a3a;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
   }
@@ -165,44 +165,48 @@ body {
     html {
       font-size: 10px;
     }
-      .navbar-brand {
-          font-size: 2rem;
-      }
+    .navbar-brand {
+      font-size: 2rem;
+    }
   }
   
   
-  .youtube-link {
-      font-size: 1.5rem;
-      line-height: 1.71;
-      text-align: center;
-      color: #1FB264;
-      text-decoration: underline;
+  .naverblog-link {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #1FB264;
+    text-decoration: underline;
   }
   
-  .youtube-link:hover {
-      font-size: 1.5rem;
-      line-height: 1.71;
-      text-align: center;
-      color: #1FB264;
-      text-decoration: underline;
+  .naverblog-link:hover {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #1FB264;
+    text-decoration: underline;
   }
   
-  .youtube-icon {
-      width: 30px;
-      height: 27.262px;
+  .naverblog-icon {
+    width: 30px;
+    height: 27.262px;
   }
   
   .upload {
-      width: 20%;
+    width: 20%;
+  }
+  
+  .cash {
+    width: 5%;
   }
   
   .upload-text {
-      width: 58%;
-      font-size: 1.5rem;
-      line-height: 1.53;
-      text-align: center;
-      color: #3a3a3a;
-      margin: 0 auto;
+    width: 58%;
+    font-size: 1.5rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #3a3a3a;
+    margin: 0 auto;
   }
 
   .footer {
@@ -508,23 +512,23 @@ body {
     color: #ffffff;
   }
   .animal-label {
-      width: 20%;
-      text-align: left;
-      height: 2rem;
+    width: 20%;
+    text-align: left;
+    height: 2rem;
   }
   #label-container {
-      width: 80%;
-      margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
   }
   .result-message {
-      font-size: 2rem;
+    font-size: 2rem;
   }
   
   .animal-explain {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
   .warrenbuffett-animal-title {
-      color: #75CC54;
+    color: #75CC54;
   }
   .warrenbuffett-animal-photo {
     width: inherit;
@@ -533,7 +537,7 @@ body {
     border-radius: 10px;
   }
   .johntempleton-animal-title {
-      color: #6A9CFC;
+    color: #6A9CFC;
   }
   .johntempleton-animal-photo {
     width: inherit;
@@ -542,7 +546,7 @@ body {
     border-radius: 10px;
   }
   .peterlynch-animal-title {
-      color: #1BAFEA;
+    color: #1BAFEA;
   }
   .peterlynch-animal-photo {
     width: inherit;
@@ -551,7 +555,7 @@ body {
     border-radius: 10px;
   }
   .georgesoros-animal-title {
-      color: #FBB03B;
+    color: #FBB03B;
   }
   .georgesoros-animal-photo {
     width: inherit;
@@ -560,7 +564,7 @@ body {
     border-radius: 10px;
   }
   .johnbogle-animal-title {
-      color: #C38C66;
+    color: #C38C66;
   }
   .johnbogle-animal-photo {
     width: inherit;
@@ -569,7 +573,7 @@ body {
     border-radius: 10px;
   }
   .carlicahn-animal-title {
-      color: #31849B;
+    color: #31849B;
   }
   .carlicahn-animal-photo {
     width: inherit;
@@ -578,7 +582,7 @@ body {
     border-radius: 10px;
   }
   .andrekostolany-animal-title {
-      color: #EBA6BE;
+    color: #EBA6BE;
   }
   .andrekostolany-animal-photo {
     width: inherit;
@@ -587,7 +591,7 @@ body {
     border-radius: 10px;
   }
   .johnneff-animal-title {
-      color: #D78D47;
+    color: #D78D47;
   }
   .johnneff-animal-photo {
     width: inherit;
@@ -596,7 +600,7 @@ body {
     border-radius: 10px;
   }
   .raydalio-animal-title {
-      color: #001B3D;
+    color: #001B3D;
   }
   .raydalio-animal-photo {
     width: inherit;
@@ -605,7 +609,7 @@ body {
     border-radius: 10px;
   }
   .howardmarks-animal-title {
-      color: #FF0000;
+    color: #FF0000;
   }
   .howardmarks-animal-photo {
     width: inherit;
@@ -614,7 +618,7 @@ body {
     border-radius: 10px;
   }
   .stephenschwarzman-animal-title {
-      color: #003FFF;
+    color: #003FFF;
   }
   .stephenschwarzman-animal-photo {
     width: inherit;
@@ -623,7 +627,7 @@ body {
     border-radius: 10px;
   }
   .jimsimons-animal-title {
-      color: #004100;
+    color: #004100;
   }
   .jimsimons-animal-photo {
     width: inherit;
@@ -632,7 +636,7 @@ body {
     border-radius: 10px;
   }
   .billgross-animal-title {
-      color: #F4D100;
+    color: #F4D100;
   }
   .billgross-animal-photo {
     width: inherit;
@@ -641,7 +645,7 @@ body {
     border-radius: 10px;
   }
   .jimrogers-animal-title {
-      color: #616987;
+    color: #616987;
   }
   .jimrogers-animal-photo {
     width: inherit;
@@ -650,7 +654,7 @@ body {
     border-radius: 10px;
   }
   .kenfisher-animal-title {
-      color: #67C3C8;
+    color: #67C3C8;
   }
   .kenfisher-animal-photo {
     width: inherit;
@@ -659,7 +663,7 @@ body {
     border-radius: 10px;
   }
   .mohnishpabrai-animal-title {
-      color: #643264;
+    color: #643264;
   }
   .mohnishpabrai-animal-photo {
     width: inherit;
@@ -668,7 +672,7 @@ body {
     border-radius: 10px;
   }
   .charliemunger-animal-title {
-      color: #FF6833;
+    color: #FF6833;
   }
   .charliemunger-animal-photo {
     width: inherit;
@@ -716,8 +720,8 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 
-      0 2px 0    rgba(0,0,0,0.05),
-      0 5px 20px rgba(0,0,0,0.1);
+    0 2px 0    rgba(0,0,0,0.05),
+    0 5px 20px rgba(0,0,0,0.1);
     background-color: #fff;
     transition: all 100ms ease-in-out;
   }
