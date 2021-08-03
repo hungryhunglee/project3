@@ -527,120 +527,154 @@ body {
       color: #75CC54;
   }
   .warrenbuffett-animal-photo {
-      color: #75CC54;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .johntempleton-animal-title {
       color: #6A9CFC;
   }
   .johntempleton-animal-photo {
-      color: #6A9CFC;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .peterlynch-animal-title {
       color: #1BAFEA;
   }
   .peterlynch-animal-photo {
-      color: #1BAFEA;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .georgesoros-animal-title {
       color: #FBB03B;
   }
   .georgesoros-animal-photo {
-      color: #FBB03B;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .johnbogle-animal-title {
       color: #C38C66;
   }
   .johnbogle-animal-photo {
-      color: #C38C66;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .carlicahn-animal-title {
       color: #31849B;
   }
   .carlicahn-animal-photo {
-      color: #31849B;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .andrekostolany-animal-title {
       color: #EBA6BE;
   }
   .andrekostolany-animal-photo {
-      color: #EBA6BE;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .johnneff-animal-title {
       color: #D78D47;
   }
   .johnneff-animal-photo {
-      color: #D78D47;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .raydalio-animal-title {
       color: #001B3D;
   }
   .raydalio-animal-photo {
-      color: #001B3D;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .howardmarks-animal-title {
       color: #FF0000;
   }
   .howardmarks-animal-photo {
-      color: #FF0000;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .stephenschwarzman-animal-title {
       color: #003FFF;
   }
   .stephenschwarzman-animal-photo {
-      color: #003FFF;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .jimsimons-animal-title {
       color: #004100;
   }
   .jimsimons-animal-photo {
-      color: #004100;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .billgross-animal-title {
       color: #F4D100;
   }
   .billgross-animal-photo {
-      color: #F4D100;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .jimrogers-animal-title {
       color: #616987;
   }
   .jimrogers-animal-photo {
-      color: #616987;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .kenfisher-animal-title {
       color: #67C3C8;
   }
   .kenfisher-animal-photo {
-      color: #67C3C8;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .mohnishpabrai-animal-title {
       color: #643264;
   }
   .mohnishpabrai-animal-photo {
-      color: #643264;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   .charliemunger-animal-title {
       color: #FF6833;
   }
   .charliemunger-animal-photo {
-      color: #FF6833;
-      font-size: 1.2rem;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 
   h1 {
