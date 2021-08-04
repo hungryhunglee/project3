@@ -194,6 +194,7 @@
   
   .upload {
     width: 20%;
+    margin: 0 auto;
   }
   
   .cash {
@@ -511,7 +512,7 @@
     font-size: 1rem;
     color: #ffffff;
   }
-  .animal-label {
+  .investor-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -524,161 +525,59 @@
     font-size: 2rem;
   }
   
-  .animal-explain {
+  .investor-explain {
     font-size: 1.5rem;
   }
-  .warrenbuffett-animal-title {
+  .warrenbuffett-investor-title {
     color: #75CC54;
   }
-  .warrenbuffett-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .johntempleton-animal-title {
+  .johntempleton-investor-title {
     color: #6A9CFC;
   }
-  .johntempleton-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .peterlynch-animal-title {
+  .peterlynch-investor-title {
     color: #1BAFEA;
   }
-  .peterlynch-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .georgesoros-animal-title {
+  .georgesoros-investor-title {
     color: #FBB03B;
   }
-  .georgesoros-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .johnbogle-animal-title {
+  .johnbogle-investor-title {
     color: #C38C66;
   }
-  .johnbogle-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .carlicahn-animal-title {
+  .carlicahn-investor-title {
     color: #31849B;
   }
-  .carlicahn-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .andrekostolany-animal-title {
+  .andrekostolany-investor-title {
     color: #EBA6BE;
   }
-  .andrekostolany-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .johnneff-animal-title {
+  .johnneff-investor-title {
     color: #D78D47;
   }
-  .johnneff-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .raydalio-animal-title {
+  .raydalio-investor-title {
     color: #001B3D;
   }
-  .raydalio-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .howardmarks-animal-title {
+  .howardmarks-investor-title {
     color: #FF0000;
   }
-  .howardmarks-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .stephenschwarzman-animal-title {
+  .stephenschwarzman-investor-title {
     color: #003FFF;
   }
-  .stephenschwarzman-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .jimsimons-animal-title {
+  .jimsimons-investor-title {
     color: #004100;
   }
-  .jimsimons-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .billgross-animal-title {
+  .billgross-investor-title {
     color: #F4D100;
   }
-  .billgross-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .jimrogers-animal-title {
+  .jimrogers-investor-title {
     color: #616987;
   }
-  .jimrogers-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .kenfisher-animal-title {
+  .kenfisher-investor-title {
     color: #67C3C8;
   }
-  .kenfisher-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .mohnishpabrai-animal-title {
+  .mohnishpabrai-investor-title {
     color: #643264;
   }
-  .mohnishpabrai-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .charliemunger-animal-title {
+  .charliemunger-investor-title {
     color: #FF6833;
-  }
-  .charliemunger-animal-photo {
-    width: inherit;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
   }
 
   h1 {
