@@ -295,7 +295,7 @@
                     resultTitle = "알수없음"
                     resultExplain = "사진을 인식할 수 없습니다. 사진은 너무 어둡지 않게 정확히 정면 얼굴을 보여주세요"
             }
-            var photo = "<div class='pt-4 pb-4'>" + resultPhoto + "</div>"
+            var photo = "<div class='pb-4'>" + resultPhoto + "</div>"
             var title = "<div class='" + prediction[0].className + "-investor-title'>" + resultTitle + "</div>"
             var explain = "<div class='investor-explain pt-2 pb-4'>" + resultExplain + "</div>"
             $('.result-message').html(photo + title + explain)
