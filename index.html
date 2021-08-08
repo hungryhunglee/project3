@@ -269,7 +269,7 @@
                     break;
                 default:
                     resultPhoto = ""
-                    resultTitle = "알수없음"
+                    resultTitle = "알 수 없음"
                     resultExplain = "사진을 인식할 수 없습니다. 사진은 너무 어둡지 않게 정확히 정면 얼굴을 보여주세요"
             }
             var photo = "<div class='pb-4'>" + resultPhoto + "</div>"
@@ -339,7 +339,7 @@
                         labelTitle = "찰리 멍거"
                         break;
                     default:
-                        labelTitle = "알수없음"
+                        labelTitle = "알 수 없음"
                 }
                 var label = "<div class='investor-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
